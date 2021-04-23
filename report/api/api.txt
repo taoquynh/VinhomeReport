@@ -1,0 +1,30 @@
+Post: Login
+http://report.bekhoe.vn/api/accounts/login
+UserName, Password
+
+Post: Register
+http://report.bekhoe.vn/api/accounts/Register
+Name, PhoneNumber, Email, Address, Password
+
+Get: Profile
+http://report.bekhoe.vn/api/accounts/profile
+
+Post: Update profile
+http://report.bekhoe.vn/api/accounts/update
+Name, Email, Address, DateOfBirth, Gender, Avatar
+
+Post: Change password
+http://report.bekhoe.vn/api/accounts/changePassword
+OldPassword, NewPassword
+
+Post: Upload
+http://report.bekhoe.vn/api/upload
+form-data
+
+
+Post: Issue
+http://report.bekhoe.vn/api/issues
+Title, Content, Photos (các link ảnh cách nhau dấu |)
+
+Get: Issue
+http://report.bekhoe.vn/api/issues?limit=5&offset=0
